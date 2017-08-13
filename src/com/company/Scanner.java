@@ -22,6 +22,7 @@ public class Scanner {
             } finally {
                 //Также не забываем закрыть файл
                 in.close();
+
             }
         } catch(IOException e) {
             throw new RuntimeException(e);

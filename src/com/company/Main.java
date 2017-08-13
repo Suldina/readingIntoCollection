@@ -14,6 +14,7 @@ public class Main {
                 String str = iter.next();
                 if(st.equals(str))	{
                     i++;
+
                     iter.remove();
                 }
             }
