@@ -14,7 +14,7 @@ public class Main {
             Iterator<String> iter = list.iterator();
             while(iter.hasNext())	{
                 String st = iter.next();
-                if(str.equals(str))	{
+                if(str.equals(st))	{
                     i++;
 
                     iter.remove();
