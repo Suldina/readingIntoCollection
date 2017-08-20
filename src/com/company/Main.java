@@ -40,7 +40,16 @@ public class Main {
             }
             statistics.put(word, ++count);
         }
+        Integer i=0;
+        Integer maxCount=0;
+//
+        for (Integer key : statistics.keySet()) {
+            if( maxCount>=statistics[i].getKey()){
+                maxCount=statistics[i].getKey();
+            }
+
         System.out.println(statistics);
+            System.out.println(statistics[maxCount], '-',maxCount );
     }
 }
 
